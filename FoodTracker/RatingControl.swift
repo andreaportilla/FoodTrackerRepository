@@ -11,7 +11,7 @@ class RatingControl: UIStackView {
         setupButtons()
     }
     //MARK: Button Action
-    func ratingButtonTapped(button: UIButton) {
+    @objc func ratingButtonTapped(button: UIButton) {
         print("Button pressed 👍")
     }
     //MARK: Private Methods
