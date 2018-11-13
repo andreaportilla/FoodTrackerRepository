@@ -1,6 +1,10 @@
 import UIKit
 
 class RatingControl: UIStackView {
+    //MARK: Properties
+    private var ratingButtons = [UIButton]()
+    
+    var rating = 0
     //MARK: Initialization
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -16,6 +20,7 @@ class RatingControl: UIStackView {
     }
     //MARK: Private Methods
     private func setupButtons() {
+        for _ in 0..<5 {
         // Create the button
         let button = UIButton()
         button.backgroundColor = UIColor.red
@@ -27,6 +32,6 @@ class RatingControl: UIStackView {
         button.addTarget(self, action: #selector(RatingControl.ratingButtonTapped(button:)), for: .touchUpInside)
         // Add the button to the stack
         addArrangedSubview(button)
+        }
     }
-    
 }
