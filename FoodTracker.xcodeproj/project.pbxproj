@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B01A9FC6219B885F00C895EA /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01A9FC5219B885F00C895EA /* RatingControl.swift */; };
 		B02D8C102182565D002B33B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02D8C0F2182565D002B33B3 /* AppDelegate.swift */; };
 		B02D8C122182565D002B33B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02D8C112182565D002B33B3 /* ViewController.swift */; };
 		B02D8C152182565D002B33B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02D8C132182565D002B33B3 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B01A9FC5219B885F00C895EA /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		B02D8C0C2182565D002B33B3 /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02D8C0F2182565D002B33B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B02D8C112182565D002B33B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			children = (
 				B02D8C242182565E002B33B3 /* FoodTrackerTests.swift */,
 				B02D8C262182565E002B33B3 /* Info.plist */,
+				B01A9FC5219B885F00C895EA /* RatingControl.swift */,
 			);
 			path = FoodTrackerTests;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B01A9FC6219B885F00C895EA /* RatingControl.swift in Sources */,
 				B02D8C252182565E002B33B3 /* FoodTrackerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
